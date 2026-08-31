@@ -12,7 +12,7 @@
 |---|---|
 | **Simplonline** | Le contrat : contexte, livrables, critères |
 | **Ce README** | Le pilotage : quoi produire, avec quel mini-cours |
-| [`ressources/`](./ressources/) | 6 mini-cours + fiche chiffrage (index dans [`ressources/README.md`](./ressources/README.md)) |
+| [`ressources/`](./ressources/) | Les 7 mini-cours (index dans [`ressources/README.md`](./ressources/README.md)) |
 | **Discord `fil-M8`** | Annonces ; le briefing de **ton cas** arrive par MP après tirage |
 
 ### Les 2 jours sync (individuel)
