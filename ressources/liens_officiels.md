@@ -1,9 +1,9 @@
 # Liens officiels — M8-B1
-Dernière vérification : 2026-06-10
+Dernière vérification : 2026-09-14
 ## Documentation officielle
 - **AI Act — texte** : https://artificialintelligenceact.eu/the-act/
   - État : ✅ vérifié le 2026-06-10
-- **AI Act — Annexe III (haut risque)** : https://artificialintelligenceact.eu/annex/3/
+- **AI Act — texte consolidé EUR-Lex** (art. 5, 6, 50, Annexe III) : https://eur-lex.europa.eu/eli/reg/2024/1689/oj
   - État : ✅ vérifié le 2026-06-10
 - **CNIL — IA et RGPD** : https://www.cnil.fr/fr/intelligence-artificielle/ia-comment-etre-en-conformite-avec-le-rgpd
   - État : ✅ vérifié le 2026-06-10

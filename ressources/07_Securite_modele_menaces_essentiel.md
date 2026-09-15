@@ -81,7 +81,7 @@ Pour ton cas tiré :
 1. Repère les points de ta **surface d'attaque** réellement exposés (données ?
    API ? boucle de feedback ? documents RAG ?) d'après ton `schema_archi_cible.md`.
 2. Remplis le tableau menace / plausibilité / mitigation / risque résiduel de
-   `risques_ethiques.md` — **2-3 menaces plausibles**, les autres écartées en
+   la section 4 de `document_cadrage.md` — **2-3 menaces plausibles**, les autres écartées en
    une ligne.
 3. Vérifie la cohérence : si tu écartes le LLM dans ton archi, la prompt
    injection est **sans objet** — et inversement.

@@ -2,7 +2,7 @@
 
 > Brief associé : M8-B1
 > Durée de lecture : ~20 min
-> Pré-requis : analyses (besoin, données, risques, KPI, archi) réalisées
+> Pré-requis : entretien mené, notes prises — les analyses se rédigent **dans** le document
 
 ## Pourquoi cette techno ?
 
@@ -14,8 +14,9 @@ boucle le cadrage (CT5/CT6).
 
 ## Concepts clés
 
-- **5 pages, 5 sections** : synthèse exec / besoin+contexte / données+risques /
-  archi+sobriété / KPI+étapes.
+- **5 pages, 6 sections, un seul fichier** : synthèse exec / besoin+contexte / données /
+  risques & conformité / archi+sobriété / KPI+étapes. Pas de fichiers d'analyse à
+  recopier : on écrit directement ici.
 - **Synthèse exécutive d'abord** : 1 paragraphe qui dit le besoin, la solution
   proposée et les indicateurs clés — la seule partie que lira un décideur pressé.
 - **Lisible par le persona** : pas un seul terme technique non défini. « classifieur
@@ -37,7 +38,7 @@ CapGroup trie 80 tickets/jour à la main. Nous proposons un classifieur de texte
 
 À partir de tes analyses :
 1. Rédige la **synthèse exécutive** (1 paragraphe : besoin + solution + KPI).
-2. Structure les 5 pages.
+2. Remplis les 6 sections du template (½ à 1 page chacune).
 3. Relis-toi du point de vue du **client** : comprend-il en 5 min sans jargon ?
 
 ## Pièges fréquents
@@ -63,13 +64,13 @@ CapGroup trie 80 tickets/jour à la main. Nous proposons un classifieur de texte
 
 ## Vérification (checklist apprenant)
 
-- [ ] 5 pages max, 5 sections.
+- [ ] 5 pages max, 6 sections, un seul fichier.
 - [ ] Synthèse exécutive en tête (besoin + solution + KPI).
 - [ ] Lisible par le persona client (pas de jargon non défini).
 - [ ] Sobriété argumentée (LLM retenu/refusé : 3 lignes).
 - [ ] KPI chiffrés + questions ouvertes.
 
-> 💡 **Récap — Document de cadrage** : 5 pages, 5 sections, **synthèse exécutive en tête** ; lisible par le persona (pas de jargon non défini) ; KPI chiffrés ; sobriété argumentée (LLM retenu/refusé en 3 lignes) ; finir par les questions ouvertes. C'est le livrable client qui se valide.
+> 💡 **Récap — Document de cadrage** : 5 pages, 6 sections, un seul fichier, **synthèse exécutive en tête** ; lisible par le persona (pas de jargon non défini) ; KPI chiffrés ; sobriété argumentée (LLM retenu/refusé en 3 lignes) ; finir par les questions ouvertes. C'est le livrable client qui se valide.
 
 ### À retenir
 
