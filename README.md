@@ -1,66 +1,44 @@
-# M8-B1 — Cadrer un projet IA en autonomie (tirage parmi les cas clients)
+# M8-B1 — Cadrer un projet IA en autonomie chez un client (2 cas)
 
-> **Repo template.** « Use this template » → `M8-B1-cadrage-<prenom>`. Tu tires un
-> cas, tu mènes un **entretien de 45 min** (formatrice joue le client), tu cadres.
-> **Pas de code** — posture consultant.
+> **Repo template.** « Use this template » → `M8-B1-cadrage-<prenom>`. La
+> formatrice t'affecte un client (cas A ou D). Tu mènes un **rendez-vous en
+> ligne** avec ce client fictif, puis tu rédiges un cadrage de **3 pages**.
+> **Pas de code** : posture consultant. Individuel, **mardi 9h15-15h30**, aucun
+> asynchrone.
 
----
+## 🗓️ Ta journée
 
-## 🧭 Ton brief en un coup d'œil
-
-| Support | Rôle |
-|---|---|
-| **Simplonline** | Le contrat : contexte, livrables, critères |
-| **Ce README** | Le pilotage : quoi produire, avec quel mini-cours |
-| [`ressources/`](./ressources/) | Les 7 mini-cours (index dans [`ressources/README.md`](./ressources/README.md)) |
-| **Discord `fil-M8`** | Annonces ; le briefing de **ton cas** arrive par MP après tirage |
-
-### Les 2 jours sync (individuel)
-
-| Quand | Tâche | Durée | Appui |
+| Heure | À faire | Fichier | Mini-cours |
 |---|---|---|---|
-| Mardi 9h15 | Tirage des cas + préparation d'entretien | 30 min | `01` |
-| Mardi 9h45-12h15 | **Ton entretien (45 min)** ; hors de ton créneau : notes propres + §2-3 du document (besoin, données) — le reste = marge | ~1h de travail | `01`, `02` |
-| Mardi 13h30 | §4 Risques & conformité (usage réel, AI Act, RGPD, sécurité) | 1h30 | `04`, `07` |
-| Mardi 15h00 | §6 Indicateurs + seuils | 1h | `03` |
-| Mardi 16h00 | Schéma archi cible | 45 min | `05` |
-| Mardi 16h45 | Mur réflexif intermédiaire | 15 min | — |
-| Mercredi 9h15 | §5 Archi & sobriété + §1 synthèse + relecture « persona client » | 2h | `06` |
-| Mercredi 11h30 | Tour de table cadrages | 30 min | — |
-| Mercredi 12h00-13h00 | Mur réflexif final + lancement B2 (binômes par cas) | — | — |
+| 9h15-10h00 | Lire le briefing de ton cas (MP Discord), créer ton repo, **préparer 12 questions** (+ 3 de réserve) classées par priorité | `notes_entretien.md` | `01` |
+| 10h00-10h45 | **Rendez-vous client en ligne** (URL sur Discord + ton code perso en MP). **12 réponses max**, **une question à la fois**. Un fichier envoyé par le client apparaît dans « Documents transmis » : télécharge-le dans ton repo | `notes_entretien.md` | `01` |
+| 10h45-12h30 | Cadrage **§2 besoin, §3 données, §4 risques & conformité** | `document_cadrage.md` | `02`, `04`, `07` |
+| 13h30-14h30 | **§5 architecture** (Mermaid) + sobriété, **§6 KPI** + questions ouvertes | `schema_archi_cible.md`, `document_cadrage.md` | `05`, `03` |
+| 14h30 | **Imprévu client** posté sur Discord : identifier ce qu'il change, mettre à jour les sections concernées | `document_cadrage.md` | — |
+| 14h30-15h30 | **§1 synthèse** (en dernier), relecture « persona client » | `document_cadrage.md` | `06` |
+| **15h30** | **Commit « cadrage final » poussé.** Ensuite, bascule en **M8-B2** avec les collègues du même client | — | — |
 
-> Budget : **7 h de production** + ton entretien + rituels. 3 livrables, pas 7.
+> Renomme les `*_TEMPLATE.md` en `notes_entretien.md`, `schema_archi_cible.md`,
+> `document_cadrage.md`. Le rendez-vous est **journalisé** : la qualité de tes
+> questions compte dans l'évaluation.
 
-### ✅ Checklist livrables (avant mercredi 12h)
+## 🏢 Les 2 clients
 
-- [ ] Besoin **reformulé** (≠ recopié) ; données existantes vs à acquérir
-- [ ] Risques en 🔴/🟠/🟡 + traitement dans l'archi ; **qualification AI Act et base
-      légale RGPD raisonnées** (usage réel décrit) ; KPI **chiffrés** + seuils
-- [ ] Archi Mermaid ≥ 4 composants ; **sobriété argumentée** (LLM retenu/refusé : 3 lignes)
-- [ ] Cadrage lisible **par le client** (pas par un dev) ; **journal de bord** tenu
+- **A — Cabinet Maître Devalle** (juridique, 12 avocats) : courriers types + recherche de jurisprudence.
+- **D — Galvaplus Industries** (galvanisation) : être prévenu 48 h avant une panne de bain.
 
-## 🧭 Ce que tu produis
+Le briefing complet de **ton** cas t'est envoyé en MP.
 
-**3 livrables** — le document de cadrage est le principal ; besoin, données,
-risques et indicateurs en sont des **sections**, pas des fichiers séparés.
+## ✅ Réussite
 
-| # | À faire | Fichier | Mini-cours |
-|---|---|---|---|
-| 1 | Préparer + mener l'entretien (notes brutes) | `notes_entretien_TEMPLATE.md` | `01` |
-| 2 | Schéma archi cible (Mermaid) | `schema_archi_cible_TEMPLATE.md` | `05` |
-| 3 | **Document de cadrage 5 pages** : besoin · données · risques & conformité · archi & sobriété · KPI | `document_cadrage_TEMPLATE.md` | `02`, `03`, `04`, `06`, `07` |
-
-> 💡 Les **données du cas** ne sont pas fournies d'office : ce que tu n'as
-> pas demandé en entretien n'existe pas. Un échantillon se demande.
-
-## ⭐ Extension (non notée, si socle bouclé) — le cadrage contradictoire
-
-Échange ton document de cadrage avec l'autre apprenant de **ton cas**
-(même entretien, deux cadrages) : listez par écrit **3 divergences**
-(un KPI différent, un risque coté autrement, un périmètre plus large) et,
-pour chacune, tranchez ensemble — c'est votre premier geste de
-convergence, et c'est exactement le travail de B2 qui commence.
+- **12 questions préparées et priorisées**, relances pertinentes pendant le rendez-vous.
+- Besoin **reformulé** (≠ recopié). Données existantes vs à acquérir, qualité estimée.
+- Risques 🔴/🟠/🟡 + traitement dans l'archi. **Qualification AI Act et base
+  légale RGPD raisonnées** (usage réel décrit). ≥ 2 menaces de sécurité + mitigation.
+- Archi Mermaid ≥ 4 composants. **Sobriété argumentée** (LLM retenu/refusé : 3 lignes).
+- KPI **chiffrés** + seuils. **Imprévu client intégré**.
+- **3 pages max**, lisible **par le client**. ≥ 3 commits. **Journal de bord** tenu.
 
 ## 📚 Ressources
 
-Voir [`./ressources/`](./ressources/) — 7 mini-cours + `liens_officiels.md`.
+Voir [`./ressources/`](./ressources/) — 7 mini-cours (dont sécurité modèle) + `liens_officiels.md`.

@@ -7,7 +7,7 @@
 ## Pourquoi cette techno ?
 
 Un projet IA n'est **pilotable** que s'il est **mesurable**. « Améliorer le tri »
-ne se mesure pas ; « passer de 60 à 10 min/jour avec précision > 85 % » se mesure.
+ne se mesure pas ; « passer de 60 à 10 min/jour avec 85 % des tickets dans la bonne équipe » se mesure.
 Définir des **indicateurs business chiffrés** et des **seuils d'acceptabilité**
 transforme une intention en objectif vérifiable — et protège le projet contre le
 « on verra bien ». C'est aussi l'ancrage de la compétence C8 (mesurer la perf).
@@ -17,11 +17,17 @@ transforme une intention en objectif vérifiable — et protège le projet contr
 - **KPI business ≠ métrique modèle** : le KPI parle au client (temps gagné, € de
   panne évités) ; la métrique modèle (F1, recall) est le moyen.
 - **Chiffrer** : un KPI a une valeur de départ et une cible (« 60 → 10 min/jour »).
-- **Seuil d'acceptabilité** : en dessous, le projet n'a pas de valeur (« précision
-  < 85 % = inexploitable »).
-- **Lier KPI et métrique** : « précision > 85 % » (modèle) sert le « temps de tri
+- **Seuil d'acceptabilité** : en dessous, le projet n'a pas de valeur (« moins de
+  85 % de bons routages = inexploitable »).
+- **Lier KPI et métrique** : « exactitude > 85 % » (modèle) sert le « temps de tri
   divisé par 6 » (business).
-- **Anti-magie** : « précision > 95 % » sorti du chapeau ne vaut rien — le seuil se
+- **Nommer la bonne métrique** : l'**exactitude** compte les bonnes décisions sur
+  le total (« 85 % des tickets dans la bonne équipe ») ; la **précision** compte,
+  parmi les alertes levées, celles qui étaient vraies (« combien de fausses
+  alertes ? ») ; le **rappel** compte, parmi les vrais cas, ceux qu'on a
+  détectés (« combien de pannes ratées ? »). Un pourcentage sans son nom est
+  inutilisable.
+- **Anti-magie** : « 95 % » sorti du chapeau ne vaut rien — le seuil se
   justifie par le **coût de l'erreur** (récupérable ? critique ?).
 - **Coût de l'erreur** : un faux tri RH est récupérable (seuil souple) ; un faux
   négatif de maintenance coûte 30 k€ (seuil sur le recall plus exigeant).
@@ -32,7 +38,7 @@ transforme une intention en objectif vérifiable — et protège le projet contr
 | KPI | Cible | Seuil d'acceptabilité |
 |---|---|---|
 | Temps de tri | 60 → 10 min/jour | ≤ 15 min |
-| Précision du tri | — | > 85 % |
+| Exactitude du tri (tickets dans la bonne équipe) | — | > 85 % |
 | Taux de revue humaine | — | < 20 % |
 ```
 
@@ -71,7 +77,7 @@ Pour ton cas :
 - [ ] Au moins un seuil justifié par le coût de l'erreur.
 - [ ] Lisible par le décideur métier.
 
-> 💡 **Récap — Indicateurs business** : chiffrer le KPI **business** (60→10 min), pas juste la métrique modèle ; un seuil d'acceptabilité par KPI, justifié par le **coût de l'erreur** (récupérable vs critique). « Précision > 95 % » sorti du chapeau ne vaut rien.
+> 💡 **Récap — Indicateurs business** : chiffrer le KPI **business** (60→10 min), pas juste la métrique modèle ; un seuil d'acceptabilité par KPI, justifié par le **coût de l'erreur** (récupérable vs critique). « 95 % » sorti du chapeau, sans nom de métrique, ne vaut rien.
 
 ### À retenir
 

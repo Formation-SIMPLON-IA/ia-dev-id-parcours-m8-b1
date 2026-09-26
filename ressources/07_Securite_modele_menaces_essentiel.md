@@ -77,7 +77,7 @@ Noter le geste : **⚪ sans objet argumenté vaut mieux qu'une menace copiée-co
 
 ## Exercice guidé
 
-Pour ton cas tiré :
+Pour ton cas :
 1. Repère les points de ta **surface d'attaque** réellement exposés (données ?
    API ? boucle de feedback ? documents RAG ?) d'après ton `schema_archi_cible.md`.
 2. Remplis le tableau menace / plausibilité / mitigation / risque résiduel de
